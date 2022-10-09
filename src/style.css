@@ -42,10 +42,12 @@ h4 {
 p2 {
   font-size: 16px;
 }
-p {
+.hero p {
   text-align: center;
+}
+p {
   font-family: var(--default-font-family);
-  line-height: 1.5;
+  line-height: 30px;
 }
 .btn-branding-outline {
   color: var(--branding-color);
