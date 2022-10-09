@@ -45,6 +45,7 @@ p2 {
 p {
   text-align: center;
   font-family: var(--default-font-family);
+  line-height: 1.5;
 }
 .btn-branding-outline {
   color: var(--branding-color);
