@@ -57,3 +57,28 @@ p {
     width: 100%;
   }
 }
+
+.logo {
+  max-height: 40px;
+  margin-top: 50px;
+}
+nav li {
+  line-height: 42px;
+  list-style: none;
+  display: inline;
+  margin-left: 15px;
+}
+nav li.active a {
+  color: var(--branding-color);
+}
+nav a {
+  text-decoration: none;
+  color: #66627b;
+}
+nav a :hover {
+  color: var(--branding-color);
+}
+.head {
+  text-align: end;
+  margin-top: -40px;
+}
