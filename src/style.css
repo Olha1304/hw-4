@@ -7,7 +7,10 @@
 .page {
   background: #f9f7fe;
   text-align: center;
-  padding: 160px 20px;
+  padding-top: 300px;
+  padding-bottom: 200px;
+  margin-top: -50px;
+  margin-bottom: 80px;
 }
 .page h1 {
   font-family: var(--heading-font-family);
@@ -22,6 +25,7 @@
   font-family: var(--default-font-family);
   font-size: 36px;
   font-weight: bold;
+  margin-top: -50px;
 }
 .btn-branding {
   background: var(--branding-color);
@@ -65,4 +69,28 @@ p {
 }
 .photo {
   border-radius: 20px;
+}
+.logo {
+  max-height: 40px;
+  margin-top: 50px;
+}
+nav li {
+  line-height: 42px;
+  list-style: none;
+  display: inline;
+  margin-left: 15px;
+}
+nav li.active a {
+  color: var(--branding-color);
+}
+nav a {
+  text-decoration: none;
+  color: #66627b;
+}
+nav a :hover {
+  color: var(--branding-color);
+}
+.head {
+  text-align: end;
+  margin-top: -40px;
 }
